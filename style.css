@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #bbd2c5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #292e49,
+    #536976,
+    #bbd2c5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #292e49,
+    #536976,
+    #bbd2c5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 24px;
+}
+
+h1 {
+  color: #0a7e93;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0a7e93;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 16px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}

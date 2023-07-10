@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <form id="registrationForm">
+
+        <h1>Registration Form</h1>
+
+        <div class="form-group">
+
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+          <div id="usernameError" class="error"></div>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+          <div id="passwordError" class="error"></div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required />
+          <div id="firstNameError" class="error"></div>
+
+        </div>
+        <div class="form-group">
+
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required />
+          <div id="lastNameError" class="error"></div>
+
+        </div>
+        <div class="form-group">
+
+          <label for="dob">Date of Birth (DD/MM/YYYY):</label>
+          <input type="text" id="dob" name="dob" required />
+          <div id="dobError" class="error"></div>
+
+        </div>
+        <div class="form-group">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <div id="emailError" class="error"></div>
+
+        </div>
+        <div class="form-group">
+
+          <label for="phoneNumber">Phone Number (XXX-XXX-XXXX):</label>
+          <input type="text" id="phoneNumber" name="phoneNumber" />
+          <div id="phoneNumberError" class="error"></div>
+
+        </div>
+        <div class="form-group">
+
+          <button type="submit">Submit</button>
+
+        </div>
+        
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
